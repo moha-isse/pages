@@ -1,0 +1,90 @@
+* {
+    border: 0;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    background-color: rgb(175, 18, 175);
+    justify-content: space-between;
+    height: 60px;
+}
+.header ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+} 
+.header h1 {
+    color: white;
+    margin-left: 40px;
+    padding-top: 10px;
+}
+span {
+    border-bottom: 3px blue solid;
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+    margin-top: 60px;
+    padding-bottom: 20px;
+}
+.BTN {
+    width: 100px;
+    height: 30px;
+    background-color: orange;
+    border-radius: 5px;
+    margin-top: 15px;
+    
+}
+.main-right {
+    margin-left: 30px;
+    padding: 20px;
+    
+}
+.main-right h1 {
+    padding-bottom: 20px;
+}
+
+.main img {
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+.image {
+    position: relative;
+}
+.child-1 {
+    position: absolute;
+    background-color: rgb(90, 230, 90);
+    height: 100px;
+    width: 100px;
+    top: 40px;
+    right: 0px;
+    border-radius: 50%;
+}
+.child-2 {
+    position: absolute;
+    background-color: red;
+    height: 100px;
+    width: 120px;
+    bottom: 100px;
+    left: -50px;
+    border-radius: 5px;
+}
+.footer {
+    background-color: rgb(185, 29, 185);
+    height: 100px;
+    padding-left: 500px;
+    padding-top: 10px;
+}
+.footer i {
+    font-size: 20px;
+    padding: 10px;
+    padding-bottom: 20px;
+}
